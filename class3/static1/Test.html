@@ -1,0 +1,24 @@
+<!--.表單HTMLs..-->
+<DOCTYPE html></DOCTYPE>
+<html>
+
+<head>
+    <title>我的網頁標題</title>
+</head>
+<form action="/formprocess-php" method="post">
+    <p>Name:</p>
+    <input type="text" name="account" placeholder="請輸入帳號">
+    <p> Email:</p>
+    <input type="text" name="account" placeholder="請輸入帳號">
+    <br>
+    <p>command:</p>
+    <textarea name="mytext" rows="6" cols="40"required>留言..</textarea>
+    <p>Birthday and time</p>
+    <p>選擇生日：<input type="date" value="2020-04-20" min="2020-04-01" max="2022-04-30" step="5">
+        <input type="time" value="06:00" min="02:00" max="22:00" step="5">
+    <p>最有興趣的技能</p>
+        <input type="radio" name="sugar" value="many"> HTML<br>
+        <input type="radio" name="sugar" value="medium"> CSS<br>
+        <input type="radio" name="sugar" value="less"> JavaScript<br>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
