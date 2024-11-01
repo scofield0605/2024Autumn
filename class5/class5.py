@@ -17,8 +17,9 @@ app.run()
 
 @app. route("/hello")
 def say_hi():
+    session=()
     name = request.args.get ("name","")
-    session ['username'] = name
+    session['username'] = name
 #將 GET 中得到的 Query String儲存到 Session 中
     return "Hi, "+name
 @app. route("/talk")
